@@ -1,0 +1,10 @@
+# CreditCardOutput
+
+
+## Fields
+
+| Field                                                                    | Type                                                                     | Required                                                                 | Description                                                              | Example                                                                  |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------------------------------ |
+| `expiration`                                                             | *string*                                                                 | :heavy_check_mark:                                                       | The expiration date of the credit card. TODO TO MAKE EXPIRATION REUSABLE | 2025-03                                                                  |
+| `last4`                                                                  | *string*                                                                 | :heavy_check_mark:                                                       | The last 4 digits of the credit card number.                             | 1004                                                                     |
+| `network`                                                                | [CreditCardNetwork](../../models/shared/creditcardnetwork.md)            | :heavy_check_mark:                                                       | The credit card network.                                                 | visa                                                                     |

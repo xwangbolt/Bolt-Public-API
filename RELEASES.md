@@ -1,0 +1,9 @@
+
+
+## 2023-10-02 23:05:05
+### Changes
+Based on:
+- OpenAPI Doc 3.0.1 
+- Speakeasy CLI 1.93.1 (2.144.7) https://github.com/speakeasy-api/speakeasy
+### Generated
+- [typescript v0.1.0] .
