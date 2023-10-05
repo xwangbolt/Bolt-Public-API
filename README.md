@@ -7,15 +7,15 @@
 </div>
 
 <!-- Start SDK Installation -->
-# SDK Installation
+## SDK Installation
 
-## NPM
+### NPM
 
 ```bash
 npm add https://github.com/speakeasy-sdks/Bolt-Public-API
 ```
 
-## Yarn
+### Yarn
 
 ```bash
 yarn add https://github.com/speakeasy-sdks/Bolt-Public-API
@@ -24,8 +24,6 @@ yarn add https://github.com/speakeasy-sdks/Bolt-Public-API
 
 ## SDK Example Usage
 <!-- Start SDK Example Usage -->
-
-
 ```typescript
 import { BoltPublicAPI } from "Bolt-Public-API";
 import { AccountAddPaymentMethodResponse, AccountAddPaymentMethodSecurity } from "Bolt-Public-API/dist/sdk/models/operations";
@@ -75,10 +73,10 @@ sdk.account.accountAddPaymentMethod({
 <!-- End SDK Example Usage -->
 
 <!-- Start SDK Available Operations -->
-# Available Resources and Operations
+## Available Resources and Operations
 
 
-## [account](docs/sdks/account/README.md)
+### [account](docs/sdks/account/README.md)
 
 * [accountAddPaymentMethod](docs/sdks/account/README.md#accountaddpaymentmethod) - Add a payment method to a shopper's Bolt account Wallet.
 * [accountAddressCreate](docs/sdks/account/README.md#accountaddresscreate) - Add an address
@@ -88,24 +86,24 @@ sdk.account.accountAddPaymentMethod({
 * [accountGet](docs/sdks/account/README.md#accountget) - Retrieve account details
 * [accountPaymentMethodDelete](docs/sdks/account/README.md#accountpaymentmethoddelete) - Delete an existing payment method
 
-## [configuration](docs/sdks/configuration/README.md)
+### [configuration](docs/sdks/configuration/README.md)
 
 * [merchantCallbacksGet](docs/sdks/configuration/README.md#merchantcallbacksget) - Retrieve callback URLs for the merchant
 * [merchantCallbacksUpdate](docs/sdks/configuration/README.md#merchantcallbacksupdate) - Update callback URLs for the merchant
 * [merchantIdentifiersGet](docs/sdks/configuration/README.md#merchantidentifiersget) - Retrieve identifiers for the merchant
 
-## [payments](docs/sdks/payments/README.md)
+### [payments](docs/sdks/payments/README.md)
 
 * [guestPaymentsInitialize](docs/sdks/payments/README.md#guestpaymentsinitialize) - Initialize a Bolt payment for guest shoppers
 * [paymentsInitialize](docs/sdks/payments/README.md#paymentsinitialize) - Initialize a Bolt payment for logged in shoppers
 
-## [testing](docs/sdks/testing/README.md)
+### [testing](docs/sdks/testing/README.md)
 
 * [testingAccountCreate](docs/sdks/testing/README.md#testingaccountcreate) - Create a test account
 * [testingCreditCardGet](docs/sdks/testing/README.md#testingcreditcardget) - Retrieve a test credit card, including its token
 * [testingShipmentTrackingCreate](docs/sdks/testing/README.md#testingshipmenttrackingcreate) - Simulate a shipment tracking update
 
-## [webhooks](docs/sdks/webhooks/README.md)
+### [webhooks](docs/sdks/webhooks/README.md)
 
 * [webhooksCreate](docs/sdks/webhooks/README.md#webhookscreate) - Create a webhook to subscribe to certain events
 * [webhooksDelete](docs/sdks/webhooks/README.md#webhooksdelete) - Delete an existing webhook
@@ -114,8 +112,6 @@ sdk.account.accountAddPaymentMethod({
 <!-- End SDK Available Operations -->
 
 <!-- Start Dev Containers -->
-
-
 
 <!-- End Dev Containers -->
 
@@ -127,8 +123,6 @@ returned response object will have a `next` method that can be called to pull do
 return value of `next` is `null`, then there are no more pages to be fetched.
 
 Here's an example of one such pagination call:
-
-
 <!-- End Pagination -->
 
 <!-- Placeholder for Future Speakeasy SDK Sections -->
